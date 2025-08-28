@@ -26,9 +26,9 @@ I’m a college student doing my best to achieve a bright future in life. I may 
 
 ## 🚀 Projects
 Here are some of my highlighted works:
-- 🔗 [School Management System](https://github.com/Manaois-cers/7OOP-Projects/blob/6560054dcec715b81e161b34fd71493856520e4c/Quiz%20game%20c%20langauge.txt) 
-- 🔗 [Quiz game]([https://github.com/yourusername/portfolio](https://github.com/Manaois-cers/7OOP-Projects/blob/6560054dcec715b81e161b34fd71493856520e4c/Quiz%20game%20c%20langauge.txt))  
-  
+- 🔗 [School Management System](https://github.com/Manaois-cers/7OOP-Projects/blob/aba00f757b14c18fd00307110f5e8898fad205ea/SchoolManagementSystems..java) 
+- 🔗 [Quiz game](https://github.com/Manaois-cers/7OOP-Projects/blob/6560054dcec715b81e161b34fd71493856520e4c/Quiz%20game%20c%20langauge.txt)  
+
 ---
 
 ## 😄 Fun Facts About Me
