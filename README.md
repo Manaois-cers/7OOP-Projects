@@ -8,7 +8,7 @@ Activities and projects for the 7OOP (Object-Oriented Programming) class in C204
 ---
 
 ## 🧑‍💻 About Me
-Hi! I’m **Ivan Bryan R. Manaois**, I’m a college student doing my best to achieve a bright future in life. I may not be the best, but I strive hard for the betterment of my future. I am easy to get along with, especially with people who are genuine and willing to help. What matters most is being true to yourself — if you are real, we’re good with each other. As Albert Einstein once said: 'A man who never made a mistake never made anything.  
+I’m a college student doing my best to achieve a bright future in life. I may not be the best, but I strive hard for the betterment of my future. I am easy to get along with, especially with people who are genuine and willing to help. What matters most is being true to yourself — if you are real, we’re good with each other. As Albert Einstein once said: 'A man who never made a mistake never made anything.  
 
 ---
 
