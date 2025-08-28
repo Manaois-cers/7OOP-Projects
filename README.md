@@ -42,7 +42,7 @@ Here are some of my highlighted works:
 
 ## 📫 Connect with Me
 [![Facebook](https://img.shields.io/badge/Facebook-1877f2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/ivan.manaois.7)
-![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) ivanbryanmanaois@gmail.com
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)] ivanbryanmanaois@gmail.com
 
 
 ---
