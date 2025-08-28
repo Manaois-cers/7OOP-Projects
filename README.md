@@ -20,7 +20,7 @@ I’m a college student doing my best to achieve a bright future in life. I may 
 
 - 💻 **Programming Languages:**
   ![Java](https://github.com/Manaois-cers/7OOP-Projects/blob/5f44cc9e9e20be9224678267d29a749cb9095e88/SchoolManagementSystems..java)
-  ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+  ![C](https://github.com/Manaois-cers/7OOP-Projects/blob/085db3e76d9fae0d5a8b11876a6d024d7caea49d/Quiz%20game%20c%20langauge.txt)
 
 ---
 
