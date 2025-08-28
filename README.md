@@ -27,9 +27,8 @@ I’m a college student doing my best to achieve a bright future in life. I may 
 ## 🚀 Projects
 Here are some of my highlighted works:
 - 🔗 [School Management System](https://github.com/yourusername/school-management-system)  
-- 🔗 [Portfolio Website](https://github.com/yourusername/portfolio)  
-- 🔗 [Other Project Name](https://github.com/yourusername/other-project)  
-
+- 🔗 [Quiz game](https://github.com/yourusername/portfolio)  
+  
 ---
 
 ## 😄 Fun Facts About Me
