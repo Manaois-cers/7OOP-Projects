@@ -19,7 +19,7 @@ I’m a college student doing my best to achieve a bright future in life. I may 
   - Web Developer  
 
 - 💻 **Programming Languages:**
-  ![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java)
+  ![Java](https://github.com/Manaois-cers/7OOP-Projects/blob/5f44cc9e9e20be9224678267d29a749cb9095e88/SchoolManagementSystems..java)
   ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
 ---
