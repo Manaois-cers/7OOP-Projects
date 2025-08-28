@@ -33,7 +33,7 @@ Here are some of my highlighted works:
 
 ## 😄 Fun Facts About Me
 - I can move both of my ears 👂🏻.  
-- I easily fall in love as long as you have a beautiful voice 🎶. ⌨️  
+- I easily fall in love as long as you have a beautiful voice 🎶 ⌨ .
 - I enjoy watching Sci-fi movies 🧬 and playing games 🎮.  
 - If they can do it without hesitation, then let them handle it**
 
