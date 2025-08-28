@@ -41,10 +41,9 @@ Here are some of my highlighted works:
 ---
 
 ## 📫 Connect with Me
-<p align="left">
-  <a href="https://www.facebook.com/ivan.manaois.7"><img src="https://img.shields.io/badge/Facebook-1877f2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
-  <a href="mailto:mail.google.com/mail/u/0"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
+[![Facebook](https://img.shields.io/badge/Facebook-1877f2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/ivan.manaois.7)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ivanbryanmanaois@gmail.com)
+
 
 ---
 
