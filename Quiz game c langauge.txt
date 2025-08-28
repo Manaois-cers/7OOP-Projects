@@ -1,0 +1,262 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define MAX_QUESTIONS 10
+#define MAX_LENGTH 100
+#define FILE_NAME "custom_questions.txt"
+#define MAX_CHOICES 4  // Maximum number of choices (1 correct + 3 incorrect)
+
+typedef struct {
+    char question[MAX_LENGTH];
+    char choices[MAX_CHOICES][MAX_LENGTH];  // Store up to MAX_CHOICES choices
+    int correctAnswerIndex;  // Index of the correct answer in the choices
+} Question;
+
+void displayMenu();
+void playQuiz(Question questions[], int questionCount);
+void addCustomQuestions(Question questions[], int *questionCount);
+void loadDefaultQuestions(Question questions[], int *questionCount, int difficulty);
+void loadCustomQuestions(Question questions[], int *questionCount);
+int getDifficultyLevel();
+void shuffleChoices(Question *q);
+
+int main() {
+    Question questions[MAX_QUESTIONS];
+    int questionCount = 0;
+    int mode, difficulty;
+
+    while (1) {
+        displayMenu();
+        printf("Select mode: ");
+        scanf("%d", &mode);
+        getchar();  // consume the newline character after the input
+
+        switch (mode) {
+            case 1:
+                difficulty = getDifficultyLevel();
+                loadDefaultQuestions(questions, &questionCount, difficulty);
+                playQuiz(questions, questionCount);
+                break;
+            case 2:
+                loadCustomQuestions(questions, &questionCount);
+                playQuiz(questions, questionCount);
+                break;
+            case 3:
+                addCustomQuestions(questions, &questionCount);
+                break;
+            case 4:
+                printf("Exiting the game.\n");
+                return 0;
+            default:
+                printf("Invalid option. Try again.\n");
+        }
+    }
+}
+
+void displayMenu() {
+    printf("\n--- Quiz Game Menu ---\n");
+    printf("1. Play Quiz with Default Questions\n");
+    printf("2. Play Quiz with Custom Questions\n");
+    printf("3. Add Custom Questions\n");
+    printf("4. Exit\n");
+}
+
+int getDifficultyLevel() {
+    int difficulty;
+    printf("\nSelect difficulty level:\n");
+    printf("1. Easy\n");
+    printf("2. Medium\n");
+    printf("3. Hard\n");
+    printf("Difficulty level: ");
+    scanf("%d", &difficulty);
+    getchar(); 
+    return difficulty;
+}
+
+void loadDefaultQuestions(Question questions[], int *questionCount, int difficulty) {
+    *questionCount = 0;
+    switch (difficulty) {
+        case 1:  // Easy questions
+            strcpy(questions[0].question, "What is 2 + 2?");
+            strcpy(questions[0].choices[0], "4");
+            strcpy(questions[0].choices[1], "3");
+            strcpy(questions[0].choices[2], "5");
+            strcpy(questions[0].choices[3], "6");
+            questions[0].correctAnswerIndex = 0;
+
+            strcpy(questions[1].question, "What is the capital of France?");
+            strcpy(questions[1].choices[0], "Paris");
+            strcpy(questions[1].choices[1], "London");
+            strcpy(questions[1].choices[2], "Berlin");
+            strcpy(questions[1].choices[3], "Rome");
+            questions[1].correctAnswerIndex = 0;
+
+            *questionCount = 2;
+            break;
+        case 2:  // Medium questions
+            strcpy(questions[0].question, "Who wrote 'To Kill a Mockingbird'?");
+            strcpy(questions[0].choices[0], "Harper Lee");
+            strcpy(questions[0].choices[1], "Jane Austen");
+            strcpy(questions[0].choices[2], "Mark Twain");
+            strcpy(questions[0].choices[3], "Charles Dickens");
+            questions[0].correctAnswerIndex = 0;
+
+            strcpy(questions[1].question, "What is the square root of 64?");
+            strcpy(questions[1].choices[0], "8");
+            strcpy(questions[1].choices[1], "7");
+            strcpy(questions[1].choices[2], "9");
+            strcpy(questions[1].choices[3], "6");
+            questions[1].correctAnswerIndex = 0;
+
+            *questionCount = 2;
+            break;
+        case 3:  // Hard questions
+            strcpy(questions[0].question, "What is the value of pi to two decimal places?");
+            strcpy(questions[0].choices[0], "3.14");
+            strcpy(questions[0].choices[1], "3.12");
+            strcpy(questions[0].choices[2], "3.15");
+            strcpy(questions[0].choices[3], "3.13");
+            questions[0].correctAnswerIndex = 0;
+
+            strcpy(questions[1].question, "Who developed the theory of relativity?");
+            strcpy(questions[1].choices[0], "Albert Einstein");
+            strcpy(questions[1].choices[1], "Isaac Newton");
+            strcpy(questions[1].choices[2], "Galileo Galilei");
+            strcpy(questions[1].choices[3], "Nikola Tesla");
+            questions[1].correctAnswerIndex = 0;
+
+            *questionCount = 2;
+            break;
+        default:
+            printf("Invalid difficulty level. Loading easy questions.\n");
+            loadDefaultQuestions(questions, questionCount, 1);
+    }
+}
+
+void addCustomQuestions(Question questions[], int *questionCount) {
+    FILE *file = fopen(FILE_NAME, "a");  // Open file in append mode
+    if (file == NULL) {
+        printf("Error opening file.\n");
+        return;
+    }
+
+    int num;
+    printf("\nHow many custom questions would you like to add? ");
+    scanf("%d", &num);
+    getchar();  
+
+    if (num > MAX_QUESTIONS) {
+        printf("Maximum number of questions exceeded. Only %d questions allowed.\n", MAX_QUESTIONS);
+        num = MAX_QUESTIONS;
+    }
+
+    for (int i = 0; i < num; i++) {
+        printf("Enter question %d: ", i + 1);
+        fgets(questions[*questionCount].question, MAX_LENGTH, stdin);
+        questions[*questionCount].question[strcspn(questions[*questionCount].question, "\n")] = 0;
+
+        printf("Enter the correct answer for question %d: ", i + 1);
+        fgets(questions[*questionCount].choices[0], MAX_LENGTH, stdin);
+        questions[*questionCount].choices[0][strcspn(questions[*questionCount].choices[0], "\n")] = 0;
+
+        // Ask for 3 incorrect answers
+        for (int j = 1; j < MAX_CHOICES; j++) {
+            printf("Enter incorrect answer %d for question %d: ", j, i + 1);
+            fgets(questions[*questionCount].choices[j], MAX_LENGTH, stdin);
+            questions[*questionCount].choices[j][strcspn(questions[*questionCount].choices[j], "\n")] = 0;
+        }
+
+        // Save to file in the format: question|correct_answer|incorrect1|incorrect2|incorrect3
+        fprintf(file, "%s|%s|%s|%s|%s\n", questions[*questionCount].question, 
+                questions[*questionCount].choices[0], 
+                questions[*questionCount].choices[1], 
+                questions[*questionCount].choices[2], 
+                questions[*questionCount].choices[3]);
+
+        (*questionCount)++;
+    }
+
+    fclose(file);
+    printf("Custom questions saved to %s.\n", FILE_NAME);
+}
+
+void loadCustomQuestions(Question questions[], int *questionCount) {
+    FILE *file = fopen(FILE_NAME, "r");
+    if (file == NULL) {
+        printf("No custom questions found. Please add some first.\n");
+        *questionCount = 0;
+        return;
+    }
+
+    char line[MAX_LENGTH * 2];
+    *questionCount = 0;
+    while (fgets(line, sizeof(line), file) != NULL && *questionCount < MAX_QUESTIONS) {
+        char *questionText = strtok(line, "|");
+        char *correctAnswer = strtok(NULL, "|");
+        char *choice1 = strtok(NULL, "|");
+        char *choice2 = strtok(NULL, "|");
+        char *choice3 = strtok(NULL, "\n");
+
+        if (questionText && correctAnswer && choice1 && choice2 && choice3) {
+            strncpy(questions[*questionCount].question, questionText, MAX_LENGTH);
+            strncpy(questions[*questionCount].choices[0], correctAnswer, MAX_LENGTH);
+            strncpy(questions[*questionCount].choices[1], choice1, MAX_LENGTH);
+            strncpy(questions[*questionCount].choices[2], choice2, MAX_LENGTH);
+            strncpy(questions[*questionCount].choices[3], choice3, MAX_LENGTH);
+            questions[*questionCount].correctAnswerIndex = 0;  // Correct answer is the first one for now.
+            (*questionCount)++;
+        }
+    }
+
+    fclose(file);
+}
+
+void shuffleChoices(Question *q) {
+    srand(time(NULL));  // Seed the random number generator
+    for (int i = 0; i < MAX_CHOICES; i++) {
+        int j = rand() % MAX_CHOICES;
+        // Swap the choices
+        char temp[MAX_LENGTH];
+        strcpy(temp, q->choices[i]);
+        strcpy(q->choices[i], q->choices[j]);
+        strcpy(q->choices[j], temp);
+    }
+
+    // Update the correct answer index after shuffling
+    for (int i = 0; i < MAX_CHOICES; i++) {
+        if (strcmp(q->choices[i], q->choices[0]) == 0) {
+            q->correctAnswerIndex = i;
+            break;
+        }
+    }
+}
+
+void playQuiz(Question questions[], int questionCount) {
+    int score = 0;
+
+    for (int i = 0; i < questionCount; i++) {
+        shuffleChoices(&questions[i]);  // Shuffle the choices for each question
+
+        printf("\nQuestion %d: %s\n", i + 1, questions[i].question);
+
+        for (int j = 0; j < MAX_CHOICES; j++) {
+            printf("%d. %s\n", j + 1, questions[i].choices[j]);
+        }
+
+        int answer;
+        printf("Your answer (1-%d): ", MAX_CHOICES);
+        scanf("%d", &answer);
+        getchar();  // consume the newline character
+
+        if (answer - 1 == questions[i].correctAnswerIndex) {
+            printf("Correct!\n");
+            score++;
+        } else {
+            printf("Incorrect! The correct answer was: %s\n", questions[i].choices[questions[i].correctAnswerIndex]);
+        }
+    }
+
+    printf("\nYour final score is: %d/%d\n", score, questionCount);
+}
