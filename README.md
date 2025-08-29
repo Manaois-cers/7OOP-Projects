@@ -49,7 +49,7 @@ Here are some of my highlighted works:
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="40"/>
   </a>
   &nbsp;&nbsp;
-  <a href="https://https://www.instagram.com/ivan_bryan16/" target="_blank">
+  <a href="https://www.instagram.com/ivan_bryan16/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="40"/>
   </a>
   &nbsp;&nbsp;
