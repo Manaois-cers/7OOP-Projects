@@ -40,8 +40,20 @@ Here are some of my highlighted works:
 ---
 
 ## 📫 Connect with Me
-[![Facebook](https://img.shields.io/badge/Facebook-1877f2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/ivan.manaois.7)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)] ivanbryanmanaois@gmail.com
+<p align="left">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanbryanmanaois@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="40"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.facebook.com/ivan.manaois.7" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="40"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://https://www.instagram.com/ivan_bryan16/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="40"/>
+  </a>
+  &nbsp;&nbsp;
+</p>
 
 
 ---
