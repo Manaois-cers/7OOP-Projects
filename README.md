@@ -2,7 +2,7 @@
 Activities and projects for the 7OOP (Object-Oriented Programming) class in C204 focus on implementing core OOP concepts such as encapsulation, inheritance, polymorphism, and abstraction through practical tasks.
 <h1 align="center">👋 Hi, I'm Ivan Bryan R. Manaois </h1>
 <p align="center">
-  <img src="https://github.com/Manaois-cers/7OOP-Projects/blob/103335dc77a991d3c4845f5435e01e9cd6163650/Screenshot%202025-08-28%20135320.png" alt="banner" width="50%"/>
+  <img src="https://github.com/Manaois-cers/7OOP-Projects/blob/103335dc77a991d3c4845f5435e01e9cd6163650/Screenshot%202025-08-28%20135320.png" width="50%"/>
 </p>
 
 ---
