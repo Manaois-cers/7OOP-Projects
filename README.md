@@ -1,8 +1,8 @@
 <!-- HEADER SECTION -->
 <div align="center">
-  <h1 style="color:#58a6ff;">Ivan Bryan R. Manaois</h1>
-  <h3 style="color:#c9d1d9;">💻 Developer | 🎓 Student | ⚙️ OOP Projects</h3>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,100:203A43&height=180&section=header&text=Ivan%20Bryan%20R.%20Manaois&fontColor=ffffff&fontSize=32&fontAlignY=35&desc=7OOP%20Projects%20|%20Object-Oriented%20Programming%20Portfolio&descAlignY=50&descAlign=50" width="100%" alt="Header Banner"/>
 </div>
+
 
 ---
 
