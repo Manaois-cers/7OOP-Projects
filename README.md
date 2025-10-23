@@ -48,6 +48,7 @@ I believe in progress through persistence — one step, one project at a time.
 | 🧠 **Quiz Game (C Language)** | A simple text-based quiz program with loops and conditions. | [View Code](https://github.com/Manaois-cers/7OOP-Projects/blob/6560054dcec715b81e161b34fd71493856520e4c/Quiz%20game%20c%20langauge.txt) |
 
 </div>
+
 ---
 
 ## 🧭 Academic Activities
