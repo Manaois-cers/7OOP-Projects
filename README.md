@@ -50,6 +50,7 @@ I believe in progress through persistence — one step, one project at a time.
 # 🧭 Academic Activities
 
 ## 🧩 Midterm Lab Tasks
+
 | Task | File |
 |------|------|
 | Object-Oriented Analysis | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/6ea621bc7ea58021ff08470962ac83ae1b26776b/Files/Paired%20Task%201.%20Object%20Oriented%20Analysis%2C%20Manaois%2C%20Ivan%20Bryan%20R..pdf) |
@@ -62,6 +63,7 @@ I believe in progress through persistence — one step, one project at a time.
 ---
 
 ## 🎓 Finals Lab Task
+
 | Task | File |
 |------|------|
 | Encapsulation | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Finals%20Lab%20Task%201.%20Encapsulation%2C%20Manaois%2CIvan%20Bryan%20R..pdf) |
