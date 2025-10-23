@@ -53,12 +53,12 @@ I believe in progress through persistence — one step, one project at a time.
 
 | Task | File |
 |------|------|
-| Object-Oriented Analysis | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/6ea621bc7ea58021ff08470962ac83ae1b26776b/Files/Paired%20Task%201.%20Object%20Oriented%20Analysis%2C%20Manaois%2C%20Ivan%20Bryan%20R..pdf) |
-| Midterm Lab Task 1 | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Midterm%20Lab%20Task%201%2C%20Manaois%2C%20Ivan%20Bryan%20R..pdf) |
-| Using Loops and Functions | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Midterm%20Lab%20Task%202.%20Using%20Loops%20and%20Functions%2C%20Manaois%2C%20Ivan%20Bryan%20R..pdf) |
-| List Collection Types | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Midterm%20Lab%20Task%203.%20Using%20List%20Collection%20types%2C%20Manaois%2C%20Ivan%20Bryan%20R..pdf) |
-| Dictionaries | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Midterm%20Lab%20Task%204%20%20Manaois%2C%20Ivan%20Bryan%20R.%20.pdf) |
-| Classes and Objects (Python) | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Midterm%20Lab%20Task%205%2C%20Manaois%2C%20Ivan%20Bryan%20R..docx.pdf) |
+| **Object-Oriented Analysis** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/6ea621bc7ea58021ff08470962ac83ae1b26776b/Files/Paired%20Task%201.%20Object%20Oriented%20Analysis%2C%20Manaois%2C%20Ivan%20Bryan%20R..pdf) |
+| **Midterm Lab Task 1** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Midterm%20Lab%20Task%201%2C%20Manaois%2C%20Ivan%20Bryan%20R..pdf) |
+| **Using Loops and Functions** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Midterm%20Lab%20Task%202.%20Using%20Loops%20and%20Functions%2C%20Manaois%2C%20Ivan%20Bryan%20R..pdf) |
+| **List Collection Types** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Midterm%20Lab%20Task%203.%20Using%20List%20Collection%20types%2C%20Manaois%2C%20Ivan%20Bryan%20R..pdf) |
+| **Dictionaries** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Midterm%20Lab%20Task%204%20%20Manaois%2C%20Ivan%20Bryan%20R.%20.pdf) |
+| **Classes and Objects (Python)** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Midterm%20Lab%20Task%205%2C%20Manaois%2C%20Ivan%20Bryan%20R..docx.pdf) |
 
 ---
 
@@ -66,7 +66,7 @@ I believe in progress through persistence — one step, one project at a time.
 
 | Task | File |
 |------|------|
-| Encapsulation | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Finals%20Lab%20Task%201.%20Encapsulation%2C%20Manaois%2CIvan%20Bryan%20R..pdf) |
+| **Encapsulation** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Finals%20Lab%20Task%201.%20Encapsulation%2C%20Manaois%2CIvan%20Bryan%20R..pdf) |
 
 ---
 
