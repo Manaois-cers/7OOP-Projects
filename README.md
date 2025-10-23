@@ -30,6 +30,9 @@ Here are some of my highlighted works:
 - 🔗 [Quiz game](https://github.com/Manaois-cers/7OOP-Projects/blob/6560054dcec715b81e161b34fd71493856520e4c/Quiz%20game%20c%20langauge.txt)  
 
 ---
+# Midterm Lab Task
+
+[Paired Task 1. Object Oriented Analysis](https://github.com/Manaois-cers/7OOP-Projects/blob/6ea621bc7ea58021ff08470962ac83ae1b26776b/Files/Paired%20Task%201.%20Object%20Oriented%20Analysis%2C%20Manaois%2C%20Ivan%20Bryan%20R..pdf)
 
 ## 😄 Fun Facts About Me
 - I can move both of my ears 👂🏻.  
