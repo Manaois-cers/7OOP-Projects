@@ -40,8 +40,8 @@ I believe in progress through persistence — one step, one project at a time.
 
 ## 🚀 Featured Projects
 
-[**School Management System** A Java program demonstrating class hierarchies and encapsulation.] [View Code](https://github.com/Manaois-cers/7OOP-Projects/blob/aba00f757b14c18fd00307110f5e8898fad205ea/SchoolManagementSystems..java) |
-[**Quiz Game (C Language)** A simple text-based quiz program with loops and conditions.] [View Code](https://github.com/Manaois-cers/7OOP-Projects/blob/6560054dcec715b81e161b34fd71493856520e4c/Quiz%20game%20c%20langauge.txt) |
+- **School Management System** A Java program demonstrating class hierarchies and encapsulation. [View Code](https://github.com/Manaois-cers/7OOP-Projects/blob/aba00f757b14c18fd00307110f5e8898fad205ea/SchoolManagementSystems..java) |
+- **Quiz Game (C Language)** A simple text-based quiz program with loops and conditions. [View Code](https://github.com/Manaois-cers/7OOP-Projects/blob/6560054dcec715b81e161b34fd71493856520e4c/Quiz%20game%20c%20langauge.txt) |
 
 </div>
 
