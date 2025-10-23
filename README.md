@@ -7,10 +7,6 @@
 
 <h3 align="center">🎓 College Student | 💻 Future Software Developer | 🧠 Lifelong Learner</h3>
 
-<p align="center">
-  Activities and projects for the 7OOP (Object-Oriented Programming) class in C204 — focused on encapsulation, inheritance, polymorphism, and abstraction through real-world examples.
-</p>
-
 <div align="center">
   <img height="220" src="https://raw.githubusercontent.com/Manaois-cers/7OOP-Projects/103335dc77a991d3c4845f5435e01e9cd6163650/Screenshot%202025-08-28%20135320.png" alt="Project Preview"/>
 </div>
@@ -79,18 +75,6 @@ I believe in progress through persistence — one step, one project at a time.
 - I love sci-fi movies and gaming.  
 - I’m inspired by people with passion and confidence.  
 - Motto: *If they can do it without hesitation, let them.*
-
----
-
-## 📊 GitHub Overview
-
-<div align="center">
-  
-![Ivan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Manaois-cers&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&card_width=400)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Manaois-cers&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
 
 ---
 
