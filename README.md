@@ -34,6 +34,7 @@ I believe in progress through persistence — one step, one project at a time.
 **Languages I Use:**
   ![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java)
   ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 
 ---
