@@ -68,11 +68,11 @@ I believe in progress through persistence — one step, one project at a time.
 | Task | File |
 |------|------|
 | Finals Lab Task 1: **Encapsulation** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Finals%20Lab%20Task%201.%20Encapsulation%2C%20Manaois%2CIvan%20Bryan%20R..pdf) |
-| Finals Lab Task 2: **Inheritance** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Finals%20Lab%20Task%201.%20Encapsulation%2C%20Manaois%2CIvan%20Bryan%20R..pdf) |
-| Finals Lab Task 3: **Polymorphism** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Finals%20Lab%20Task%201.%20Encapsulation%2C%20Manaois%2CIvan%20Bryan%20R..pdf) |
-| Finals Lab Task 4: **Python and Tkinter GUI program** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Finals%20Lab%20Task%201.%20Encapsulation%2C%20Manaois%2CIvan%20Bryan%20R..pdf) |
-| Finals Lab Task 5: **CRUD CLI using Python and MySQL** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Finals%20Lab%20Task%201.%20Encapsulation%2C%20Manaois%2CIvan%20Bryan%20R..pdf) |
-| Finals Lab Task 6: **Mysql and Tkinter HUI** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/9628eec3f65fc27083e2c75420c15c145bd10ff2/Files/Finals%20Lab%20Task%201.%20Encapsulation%2C%20Manaois%2CIvan%20Bryan%20R..pdf) |
+| Finals Lab Task 2: **Inheritance** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/93941f5a456143bb638f0ff09f3ffaa0d6ec8473/Files/Finals%20Task%202.%20Inheritance%2C%20Manaois%2C%20Ivan%20Bryan%20R.%20.pdf) |
+| Finals Lab Task 3: **Polymorphism** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/93941f5a456143bb638f0ff09f3ffaa0d6ec8473/Files/Finals%20Task3.%20Polymorphism%2C%20Manaois%2C%20Ivan%20Bryan%20R..pdf) |
+| Finals Lab Task 4: **Python and Tkinter GUI program** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/93941f5a456143bb638f0ff09f3ffaa0d6ec8473/Files/Finals%20Task%204.%20Python%20and%20Tkinter%20GUI%20program%2C%20Manaois%2C%20Ivan%20Bryan%20R.C204.pdf) |
+| Finals Lab Task 5: **CRUD CLI using Python and MySQL** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/93941f5a456143bb638f0ff09f3ffaa0d6ec8473/Files/Finals%20Lab%20Task%205.%20CRUD%20CLI%20using%20Python%20and%20MySQL.%20Manaois%2C%20Ivan%20Bryan%20R.%20C204.pdf) |
+| Finals Lab Task 6: **Mysql and Tkinter HUI** | [Open PDF](https://github.com/Manaois-cers/7OOP-Projects/blob/93941f5a456143bb638f0ff09f3ffaa0d6ec8473/Files/Finals%20Lab%20Task%206.%20Mysql%20and%20Tkinter%20HUI%2C%20Manaois%2C%20Ivan%20Bryan%20R.%20C204.pdf) |
 
 
 
